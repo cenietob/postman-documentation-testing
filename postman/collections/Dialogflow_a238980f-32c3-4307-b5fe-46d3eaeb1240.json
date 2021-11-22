@@ -1,0 +1,54 @@
+{
+    "info": {
+        "_postman_id": "132657dd-c7a9-4e67-9989-579efdd7e93d",
+        "name": "Dialogflow",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "patch v2",
+            "id": "c4e93fbb-7e31-4453-ad84-e3e9dc08564c",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": ""
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "post v2",
+            "id": "5d62f9cb-74fa-4116-a7b6-4962cec6d7be",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": ""
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "test",
+            "id": "f513d7f5-ce29-4d43-a87a-130497a704b1",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": ""
+                }
+            },
+            "response": []
+        }
+    ]
+}
