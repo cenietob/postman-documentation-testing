@@ -68,9 +68,9 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
-    delete:
-      summary: 'Delete user'
-      operationId: deleteUser
+    patch:
+      summary: 'Patch user'
+      operationId: patchUser
       tags:
         - user
       parameters:
