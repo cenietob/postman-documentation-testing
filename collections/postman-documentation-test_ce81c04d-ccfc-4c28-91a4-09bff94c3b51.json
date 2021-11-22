@@ -1,6 +1,6 @@
 {
     "info": {
-        "_postman_id": "4637dd4a-d994-439d-9b39-de9bd33645bb",
+        "_postman_id": "74c65527-4ea8-4ae2-b866-f484f3056b0c",
         "name": "postman-documentation-test",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
     },
@@ -10,12 +10,12 @@
             "item": [
                 {
                     "name": "List Users",
-                    "id": "041a00ba-9906-4950-be9b-6f16bac5bdfd",
+                    "id": "57ad7ac2-7712-40e7-b43e-2fe92b49bcef",
                     "request": {
                         "method": "GET",
                         "header": [],
                         "url": {
-                            "raw": "{{baseUrl}}/user?id=<integer>",
+                            "raw": "{{baseUrl}}/user?id=96924498",
                             "host": [
                                 "{{baseUrl}}"
                             ],
@@ -24,16 +24,16 @@
                             ],
                             "query": [
                                 {
+                                    "description": "(Required) ID of the user",
                                     "key": "id",
-                                    "value": "<integer>",
-                                    "description": "(Required) ID of the user"
+                                    "value": "96924498"
                                 }
                             ]
                         }
                     },
                     "response": [
                         {
-                            "id": "d7b3d87c-85a1-43c5-ac8f-343e4427f8e3",
+                            "id": "f170d850-5877-480d-be9e-c7dac7608507",
                             "name": "Sample response: Details about a user by ID",
                             "originalRequest": {
                                 "method": "GET",
@@ -56,11 +56,14 @@
                             },
                             "status": "OK",
                             "code": 200,
-                            "_postman_previewlanguage": "json",
+                            "_postman_previewlanguage": "Text",
                             "header": [
                                 {
                                     "disabled": false,
-                                    "description": "A link to the next page of responses",
+                                    "description": {
+                                        "content": "A link to the next page of responses",
+                                        "type": "text/plain"
+                                    },
                                     "key": "x-next",
                                     "value": "<string>"
                                 },
@@ -71,10 +74,10 @@
                             ],
                             "cookie": [],
                             "responseTime": null,
-                            "body": "{\n \"id\": \"<long>\",\n \"name\": \"<string>\",\n \"tag\": \"<string>\"\n}"
+                            "body": "{\n \"id\": -10961264,\n \"name\": \"<string>\",\n \"tag\": \"<string>\"\n}"
                         },
                         {
-                            "id": "9c0bade6-e5bb-44df-a936-29522a078ba6",
+                            "id": "d30a276b-b764-417c-a761-b530f23a240c",
                             "name": "Unexpected error",
                             "originalRequest": {
                                 "method": "GET",
@@ -97,7 +100,7 @@
                             },
                             "status": "Internal Server Error",
                             "code": 500,
-                            "_postman_previewlanguage": "json",
+                            "_postman_previewlanguage": "Text",
                             "header": [
                                 {
                                     "key": "Content-Type",
@@ -106,18 +109,18 @@
                             ],
                             "cookie": [],
                             "responseTime": null,
-                            "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+                            "body": "{\n \"code\": 29392701,\n \"message\": \"<string>\"\n}"
                         }
                     ]
                 },
                 {
                     "name": "Create user",
-                    "id": "5e4173c8-4b20-43eb-bbba-92b5965d26a5",
+                    "id": "e1051fa8-b585-48f9-900a-57f588a2cb3e",
                     "request": {
                         "method": "POST",
                         "header": [],
                         "url": {
-                            "raw": "{{baseUrl}}/user?id=<integer>",
+                            "raw": "{{baseUrl}}/user?id=96924498",
                             "host": [
                                 "{{baseUrl}}"
                             ],
@@ -126,16 +129,16 @@
                             ],
                             "query": [
                                 {
+                                    "description": "(Required) ID of the user",
                                     "key": "id",
-                                    "value": "<integer>",
-                                    "description": "(Required) ID of the user"
+                                    "value": "96924498"
                                 }
                             ]
                         }
                     },
                     "response": [
                         {
-                            "id": "1a02e201-4960-412e-9ce8-986ba27c59ff",
+                            "id": "9eb779cc-4551-421e-ad78-0cfdeaff6c65",
                             "name": "Sample response: Details about a user by ID",
                             "originalRequest": {
                                 "method": "POST",
@@ -158,11 +161,14 @@
                             },
                             "status": "OK",
                             "code": 200,
-                            "_postman_previewlanguage": "json",
+                            "_postman_previewlanguage": "Text",
                             "header": [
                                 {
                                     "disabled": false,
-                                    "description": "A link to the next page of responses",
+                                    "description": {
+                                        "content": "A link to the next page of responses",
+                                        "type": "text/plain"
+                                    },
                                     "key": "x-next",
                                     "value": "<string>"
                                 },
@@ -173,10 +179,10 @@
                             ],
                             "cookie": [],
                             "responseTime": null,
-                            "body": "{\n \"id\": \"<long>\",\n \"name\": \"<string>\",\n \"tag\": \"<string>\"\n}"
+                            "body": "{\n \"id\": -10961264,\n \"name\": \"<string>\",\n \"tag\": \"<string>\"\n}"
                         },
                         {
-                            "id": "cd4a8d1f-ff88-4858-a116-0754cd5055ac",
+                            "id": "1b8481f0-3fa5-4982-a307-a7a2c85a2e59",
                             "name": "Unexpected error",
                             "originalRequest": {
                                 "method": "POST",
@@ -199,7 +205,7 @@
                             },
                             "status": "Internal Server Error",
                             "code": 500,
-                            "_postman_previewlanguage": "json",
+                            "_postman_previewlanguage": "Text",
                             "header": [
                                 {
                                     "key": "Content-Type",
@@ -208,12 +214,142 @@
                             ],
                             "cookie": [],
                             "responseTime": null,
-                            "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+                            "body": "{\n \"code\": 29392701,\n \"message\": \"<string>\"\n}"
                         }
                     ]
                 }
             ],
-            "id": "64c921f5-7c11-431c-9f41-945208740e6c"
+            "id": "5cb20f52-b43a-49af-96bd-9c5e4e33556e"
+        },
+        {
+            "name": "Patch user",
+            "id": "8be49249-3430-402e-906a-0b49e8d21b3d",
+            "request": {
+                "method": "PATCH",
+                "header": [],
+                "url": {
+                    "raw": "{{baseUrl}}/user?id=-39291562",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "user"
+                    ],
+                    "query": [
+                        {
+                            "description": "(Required) ID of the user",
+                            "key": "id",
+                            "value": "-39291562"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "delete user",
+            "id": "965433a1-4f25-417b-a8c1-50193ca04ee6",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "{{baseUrl}}/user?id=-39291562",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "user"
+                    ],
+                    "query": [
+                        {
+                            "description": "(Required) ID of the user",
+                            "key": "id",
+                            "value": "-39291562"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "ad79fc8b-f7ae-42ad-a0ca-e89db6037fe4",
+                    "name": "Sample response: Details about a user by ID",
+                    "originalRequest": {
+                        "method": "DELETE",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/user?id=30704169",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "user"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "30704169"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "Text",
+                    "header": [
+                        {
+                            "disabled": false,
+                            "description": {
+                                "content": "A link to the next page of responses",
+                                "type": "text/plain"
+                            },
+                            "key": "x-next",
+                            "value": "dolore pariatur voluptate deserunt dolore"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n \"id\": -10961264,\n \"name\": \"eu voluptate sed incididunt\",\n \"tag\": \"anim qui id Lorem\"\n}"
+                },
+                {
+                    "id": "cabc685a-6302-41c1-a44a-854d7e48abd5",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "DELETE",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/user?id=30704169",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "user"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "30704169"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "Text",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n \"code\": 29392701,\n \"message\": \"proident voluptate\"\n}"
+                }
+            ]
         }
     ],
     "variable": [
