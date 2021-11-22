@@ -350,6 +350,161 @@
                     "body": "{\n \"code\": 29392701,\n \"message\": \"proident voluptate\"\n}"
                 }
             ]
+        },
+        {
+            "name": "List Users",
+            "id": "1444756d-30ce-48b0-ba28-985967aee643",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{baseUrl}}/posts?id=<integer>",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "posts"
+                    ],
+                    "query": [
+                        {
+                            "description": "(Required) ID of the user",
+                            "key": "id",
+                            "value": "<integer>"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Create user",
+            "id": "c72e4a2c-6327-4c52-8170-a75bf883e2b0",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                    "raw": "{{baseUrl}}/posts?id=<integer>",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "posts"
+                    ],
+                    "query": [
+                        {
+                            "description": "(Required) ID of the user",
+                            "key": "id",
+                            "value": "<integer>"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Patch user",
+            "id": "a5ba466a-3f9f-4d20-a6ee-fd6e980fac1c",
+            "request": {
+                "method": "PATCH",
+                "header": [],
+                "url": {
+                    "raw": "{{baseUrl}}/posts?id=<integer>",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "posts"
+                    ],
+                    "query": [
+                        {
+                            "description": "(Required) ID of the user",
+                            "key": "id",
+                            "value": "<integer>"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "063053e9-5269-49ad-a506-75b80406cf2c",
+                    "name": "Sample response: Details about a user by ID",
+                    "originalRequest": {
+                        "method": "PATCH",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/posts?id=<integer>",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "posts"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "<integer>"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "Text",
+                    "header": [
+                        {
+                            "disabled": false,
+                            "description": {
+                                "content": "A link to the next page of responses",
+                                "type": "text/plain"
+                            },
+                            "key": "x-next",
+                            "value": "aliqua"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n \"id\": -8956883,\n \"name\": \"ex\",\n \"tag\": \"adipisicing eiusmod consectetur\"\n}"
+                },
+                {
+                    "id": "ae4e9556-25e9-4721-aa3f-28210a972ab7",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "PATCH",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/posts?id=<integer>",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "posts"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "<integer>"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "Text",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n \"code\": 42166413,\n \"message\": \"ut amet Lorem cul\"\n}"
+                }
+            ]
         }
     ],
     "variable": [
