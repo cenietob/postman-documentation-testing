@@ -164,7 +164,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Error'
     patch:
-      summary: 'Patch user'
+      summary: 'Patch user asd'
       operationId: patchPost
       tags:
         - post
