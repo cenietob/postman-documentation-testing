@@ -36,7 +36,7 @@
                             "id": "f170d850-5877-480d-be9e-c7dac7608507",
                             "name": "Sample response: Details about a user by ID",
                             "originalRequest": {
-                                "method": "GET",
+                                "method": "POST",
                                 "header": [],
                                 "url": {
                                     "raw": "{{baseUrl}}/user?id=<integer>",
