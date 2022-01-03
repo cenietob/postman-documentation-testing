@@ -9,7 +9,7 @@
             "name": "user",
             "item": [
                 {
-                    "name": "List Users",
+                    "name": "List ALL Users",
                     "id": "57ad7ac2-7712-40e7-b43e-2fe92b49bcef",
                     "request": {
                         "method": "GET",
