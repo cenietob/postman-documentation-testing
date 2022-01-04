@@ -7,7 +7,7 @@ servers:
 paths:
   /userss:
     get:
-      summary: 'Other List ALL user'
+      summary: 'Other List ALL user xxxx'
       operationId: listUser
       tags:
         - userss
