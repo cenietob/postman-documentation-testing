@@ -5,12 +5,12 @@ info:
 servers:
   - url: 'http://localhost:3000'
 paths:
-  /Userss:
+  /Users:
     get:
       summary: 'Other List ALL Users'
       operationId: listUser
       tags:
-        - Userss
+        - Users
       parameters:
         - name: id
           in: query
@@ -41,7 +41,7 @@ paths:
       summary: 'Create user'
       operationId: createUser
       tags:
-        - Userss
+        - Users
       parameters:
         - name: id
           in: query
@@ -72,7 +72,7 @@ paths:
       summary: 'delete user'
       operationId: deleteUser
       tags:
-        - Userss
+        - Users
       parameters:
         - name: id
           in: query
@@ -103,7 +103,7 @@ paths:
       summary: 'Patch user'
       operationId: patchUser
       tags:
-        - Userss
+        - Users
       parameters:
         - name: id
           in: query
