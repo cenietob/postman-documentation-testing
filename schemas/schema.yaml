@@ -41,7 +41,7 @@ paths:
       summary: 'Create user'
       operationId: createUser
       tags:
-        - user
+        - Users Endpoints
       parameters:
         - name: id
           in: query
@@ -72,7 +72,7 @@ paths:
       summary: 'delete user'
       operationId: deleteUser
       tags:
-        - user
+        - Users Endpoints
       parameters:
         - name: id
           in: query
@@ -103,7 +103,7 @@ paths:
       summary: 'Patch user'
       operationId: patchUser
       tags:
-        - user
+        - Users Endpoints
       parameters:
         - name: id
           in: query
