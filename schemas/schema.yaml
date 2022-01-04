@@ -103,7 +103,7 @@ paths:
       summary: 'Patch user'
       operationId: patchUser
       tags:
-        - Users Endpoints
+        - "Users Endpoints"
       parameters:
         - name: id
           in: query
